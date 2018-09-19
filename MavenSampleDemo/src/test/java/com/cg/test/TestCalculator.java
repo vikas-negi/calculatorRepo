@@ -20,7 +20,7 @@ public class TestCalculator {
 	public void test_subtract()
 	{
 		Calculator calc=new Calculator();
-		int res=calc.add(6,2);
+		int res=calc.subtract(6,2);
 		Assert.assertEquals(4, res);
 	}
 	
@@ -28,7 +28,7 @@ public class TestCalculator {
 	public void test_multiply()
 	{
 		Calculator calc=new Calculator();
-		int res=calc.add(2,4);
+		int res=calc.multiply(2,4);
 		Assert.assertEquals(8, res);
 	}
 	
